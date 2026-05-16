@@ -9,7 +9,7 @@ import importingData as i
 #connect to qdrant ***************
 client = QdrantClient(
     url="https://4797bc27-a78a-4d46-bb0d-9d87dc8ca35e.us-east4-0.gcp.cloud.qdrant.io",
-    api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.gV1YzLbyVuElAfkgKVXRPkNLTZVUzADB_TPa7L29AgI"
+    api_key="kkkk"
 )
 #prepare product**************** (example of a product)
 products =i.read_products("laptops_cleaned_v1.csv")
